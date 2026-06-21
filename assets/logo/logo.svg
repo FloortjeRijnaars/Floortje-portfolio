@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" role="img" aria-labelledby="logo-title">
+  <title id="logo-title">Floortje Rijnaars</title>
+  <rect width="320" height="160" fill="none"/>
+  <g fill="#8f2638">
+    <text x="160" y="61" text-anchor="middle" font-family="Playfair Display, Georgia, serif" font-size="58" font-weight="700">FR</text>
+    <line x1="30" y1="86" x2="290" y2="86" stroke="#8f2638" stroke-width="1.4"/>
+    <text x="160" y="121" text-anchor="middle" font-family="DM Sans, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="4.4">FLOORTJE RIJNAARS</text>
+  </g>
+</svg>

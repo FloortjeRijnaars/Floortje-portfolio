@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Floortje Rijnaars Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="intro" id="intro" aria-label="Opening call">
+      <div class="intro__phone-wrap">
+        <img class="intro__phone" src="assets/images/hero/phone-intro.png" alt="" />
+        <span class="ring ring--one"></span>
+        <span class="ring ring--two"></span>
+        <span class="ring ring--three"></span>
+      </div>
+      <div class="intro__copy">
+        <h1>Your next <em>intern</em> is calling</h1>
+        <p>Hello, am I speaking with a team that values curiosity, creativity, good design and is looking for its next intern?</p>
+        <button class="intro__button" type="button" id="answerCall">Answer the call <span>&rarr;</span></button>
+      </div>
+      <div class="connection" aria-hidden="true">Connection established</div>
+    </div>
+
+    <div class="site-shell" id="siteShell">
+      <header class="nav">
+        <a class="nav__brand" href="#home" aria-label="Floortje Rijnaars home">
+          <img src="assets/logo/logo.svg" alt="Floortje Rijnaars" />
+        </a>
+        <nav class="nav__links" aria-label="Primary navigation">
+          <a href="#work">Selected work</a>
+          <a href="#about">About</a>
+          <a href="#beyond">Beyond the portfolio</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero section-light" id="home">
+          <div class="hero__text reveal">
+            <h2>Your<br />next<br /><em>intern</em><br />is calling.</h2>
+            <div class="hero__actions">
+              <a class="button button--dark" href="#work">View projects</a>
+              <a class="text-link" href="#about">About Me &darr;</a>
+            </div>
+          </div>
+          <div class="hero__media reveal">
+            <div class="portrait-card" tabindex="0">
+              <div class="portrait-card__inner">
+                <img class="portrait-card__side" src="assets/images/hero/portrait-front.jpg" alt="Floortje Rijnaars holding a red phone" />
+                <img class="portrait-card__side portrait-card__side--back" src="assets/images/hero/portrait-front.jpg" alt="Floortje Rijnaars portrait alternate" />
+              </div>
+            </div>
+            <article class="incoming-card">
+              <div class="incoming-card__status">&#9742; Incoming call... <span></span></div>
+              <p>Hello, am I speaking with a team that values curiosity, creativity, good design and is looking for its next intern?</p>
+              <p>If so, my name is Floortje, and I'd love to continue the conversation.</p>
+              <div class="incoming-card__meta">
+                <div><small>CMD student</small><strong>1st year</strong></div>
+                <div><small>Available</small><strong>Sept 2027</strong></div>
+                <div><small>School</small><strong>THUAS</strong></div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="work section-dark" id="work">
+          <div class="section-heading section-heading--dark reveal">
+            <p class="section-number">&sect;02</p>
+            <h2>Selected work</h2>
+            <p>A selection of projects that reflect how I think, create and solve problems through design.</p>
+          </div>
+          <div class="carousel-wrap reveal">
+            <button class="carousel-arrow carousel-arrow--prev" type="button" aria-label="Previous project">&larr;</button>
+            <div class="project-carousel" id="projectCarousel">
+              <a class="project-card" href="pages/project-davids.html" aria-label="Open Davids Hoveniersbedrijf project">
+                <div class="project-card__media">
+                  <img src="assets/images/projects/davids/project-davids.jpg" alt="Davids Hoveniersbedrijf website preview" />
+                  <span class="project-card__number">01</span>
+                </div>
+                <div class="project-card__body">
+                  <div class="project-card__time">11:30 AM <span>✓✓</span></div>
+                  <h3>Davids Hoveniersbedrijf</h3>
+                  <div class="tags"><span>UX Design</span><span>Branding</span><span>Web Design</span></div>
+                  <p>A professional website designed to showcase craftsmanship, build trust and help potential clients easily explore gardening services.</p>
+                  <span class="project-card__link">Take a look <span></span></span>
+                </div>
+              </a>
+              <a class="project-card" href="pages/project-choukoud.html" aria-label="Open Choukoud Gym project">
+                <div class="project-card__media">
+                  <img src="assets/images/projects/choukoud/project-choukoud.jpg" alt="Choukoud Gym website preview" />
+                  <span class="project-card__number">02</span>
+                </div>
+                <div class="project-card__body">
+                  <div class="project-card__time">11:30 AM <span>✓✓</span></div>
+                  <h3>Choukoud Gym</h3>
+                  <div class="tags"><span>UI/UX Design</span><span>Website Redesign</span></div>
+                  <p>A complete redesign for a local kickboxing gym focused on improving accessibility, trust and member conversion through a clear user journey and modern visual identity.</p>
+                  <span class="project-card__link">Take a look <span></span></span>
+                </div>
+              </a>
+              <a class="project-card" href="pages/project-lifeline.html" aria-label="Open LifeLine project">
+                <div class="project-card__media">
+                  <img src="assets/images/projects/lifeline/project-lifelines.jpg" alt="LifeLine game preview" />
+                  <span class="project-card__number">03</span>
+                </div>
+                <div class="project-card__body">
+                  <div class="project-card__time">11:30 AM <span>✓✓</span></div>
+                  <h3>LifeLine</h3>
+                  <div class="tags"><span>UX Design</span><span>Game Design</span></div>
+                  <p>A hybrid board game that combines physical gameplay and digital interaction to build empathy between influencers and anti-influencers.</p>
+                  <span class="project-card__link">Take a look <span></span></span>
+                </div>
+              </a>
+            </div>
+            <button class="carousel-arrow carousel-arrow--next" type="button" aria-label="Next project">&rarr;</button>
+          </div>
+        </section>
+
+        <section class="about section-light" id="about">
+          <div class="phone-profile reveal">
+            <div class="phone-profile__speaker"></div>
+            <img src="assets/images/about/about-photo2.jpg" alt="Floortje Rijnaars" />
+            <h3>Floortje Rijnaars</h3>
+            <dl>
+              <dt>Role:</dt><dd>CMD student</dd>
+              <dt>School:</dt><dd>The Hague University of Applied Sciences</dd>
+              <dt>Status:</dt><dd>Available for internship</dd>
+              <dt>Availability:</dt><dd> From September 2027</dd>
+            </dl>
+          </div>
+          <div class="about__copy reveal">
+            <p class="section-number">&sect;03</p>
+            <h2>The person<br />behind the<br /><em>call</em> <span>.</span></h2>
+            <p>I'm a CMD student driven by curiosity, creativity and a passion for meaningful design. I enjoy exploring ideas, asking questions and transforming insights into visual experiences that communicate clearly and leave a lasting impression.</p>
+            <p>For me design is more than creating something that looks good, it's about creating something that connects.</p>
+            <p> Outside of design, I enjoy travelling, discovering new places and finding inspiration in everyday experiences. I am someone who likes to stay curious, meet new people and continuously challenge myself to learn and grow, both personally and professionally.</p>
+            <p>My core values are clarity, personality, growth and curiosity. These values influence the way I approach design challenges, collaborate with others and continue developing as a designer.</p>
+          </div>
+        </section>
+
+        <section class="beyond section-light" id="beyond">
+          <div class="section-heading reveal">
+            <p class="section-number">&sect;04</p>
+            <h2>Beyond The<br /><em>Portfolio</em></h2>
+            <p>Beyond projects and pixels, discover the mindset, tools and qualities that shape the way I design.</p>
+          </div>
+          <div class="poll-grid reveal">
+            <article class="poll-card">
+              <div class="poll-card__top"><span>&star;</span><strong>Skills</strong><small>10:30 ✓✓</small></div>
+              <h3>What I do best?</h3>
+              <div class="poll-row" data-value="89"><span>UX Research</span><b>89%</b><i></i></div>
+              <div class="poll-row" data-value="86"><span>Interface Design</span><b>86%</b><i></i></div>
+              <div class="poll-row" data-value="92"><span>Visual Storytelling</span><b>92%</b><i></i></div>
+              <div class="poll-row" data-value="84"><span>Prototyping</span><b>84%</b><i></i></div>
+              <div class="poll-row" data-value="88"><span>Editorial Design</span><b>88%</b><i></i></div>
+            </article>
+            <article class="poll-card">
+              <div class="poll-card__top"><span>&#8984;</span><strong>Tools</strong><small>10:30 ✓✓</small></div>
+              <h3>My daily toolkit?</h3>
+              <div class="poll-row" data-value="95"><span>Figma</span><b>95%</b><i></i></div>
+              <div class="poll-row" data-value="88"><span>Canva</span><b>88%</b><i></i></div>
+              <div class="poll-row" data-value="82"><span>Visual Studio Code</span><b>82%</b><i></i></div>
+              <div class="poll-row" data-value="75"><span>Adobe Photoshop</span><b>75%</b><i></i></div>
+              <div class="poll-row" data-value="68"><span>Adobe Illustrator</span><b>68%</b><i></i></div>
+            </article>
+            <article class="poll-card">
+              <div class="poll-card__top"><span>&hearts;</span><strong>Traits</strong><small>10:30 ✓✓</small></div>
+              <h3>How I work?</h3>
+              <div class="poll-row" data-value="96"><span>Curious</span><b>96%</b><i></i></div>
+              <div class="poll-row" data-value="91"><span>Creative</span><b>91%</b><i></i></div>
+              <div class="poll-row" data-value="84"><span>Analytical</span><b>84%</b><i></i></div>
+              <div class="poll-row" data-value="87"><span>Detail-Oriented</span><b>87%</b><i></i></div>
+              <div class="poll-row" data-value="82"><span>Empathetic</span><b>82%</b><i></i></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="contact section-dark" id="contact">
+          <div class="contact__copy reveal">
+            <p class="section-number">&sect;05</p>
+            <h2>Pick up<br /><em>the call.</em></h2>
+            <p>Looking for an intern who is curious, creative and eager to learn?</p>
+            <p>Let's continue the conversation.</p>
+            <a class="button button--outline" href="mailto:Frijnaars@gmail.com">&#9742; Contact me</a>
+          </div>
+          <address class="contact-list reveal">
+            <div><span>E-mail</span><a href="mailto:Frijnaars@gmail.com">Frijnaars@gmail.com</a></div>
+            <div><span>LinkedIn</span><a href="#">Floortje Rijnaars</a></div>
+            <div><span>Phone number</span><a href="tel:+31633100088">(+31) 6 331 00 088</a></div>
+          </address>
+          <img class="contact__phone" src="assets/images/hero/phone-intro.png" alt="" />
+        </section>
+      </main>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
